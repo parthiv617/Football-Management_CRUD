@@ -17,6 +17,9 @@ function Header() {
                             type="button" 
                             data-bs-toggle="collapse" 
                             data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
                         >
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -24,7 +27,7 @@ function Header() {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/">
+                                    <Link className="nav-link" to="/" aria-current="page">
                                         <i className="bi bi-house-door me-1"></i>
                                         Home
                                     </Link>
