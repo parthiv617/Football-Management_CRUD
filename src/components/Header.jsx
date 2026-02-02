@@ -8,8 +8,8 @@ function Header() {
                 <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#0f0707ff" }}>
                     <div className="container-fluid">
                         <Link className="navbar-brand fw-bold" to="/">
-                            <i className="bi bi-people-fill me-2"></i>
-                            Player Management
+                            <i className="bi bi-trophy-fill me-2"></i>
+                            Player Management Pro
                         </Link>
                         
                         <button 

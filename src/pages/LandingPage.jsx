@@ -40,7 +40,7 @@ function LandingPage() {
                     textShadow: '2px 2px 4px rgba(0,0,0,0.7)',
                     lineHeight: '1.2'
                 }}>
-                    Player Management System
+                    Player Management Pro
                 </h1>
                 <p style={{ 
                     fontSize: 'clamp(1rem, 3vw, 1.5rem)', 
